@@ -3,7 +3,7 @@
 +-- src
 |   +-- api                  #api放在此目录
 |   +-- components           #组件目录
-|   +-- pages                #页面目录
+|   +-- pages                #页面目录
 |   |   +-- home             #首页
 |   |   +-- category         #分类页
 |   |   +-- integral         #积分商城
