@@ -3,24 +3,24 @@
 +-- src
 |   +-- api                  #api放在此目录
 |   +-- components           #组件目录
-|   +-- pages                #页面目录
+|   +-- pages                #页面目录
 |   |   +-- home             #首页
 |   |   +-- category         #分类页
-|   |   +-- integral         #积分商城
+|   |   +-- integral         #积分商城
 |   |   +-- shopping         #购物车页
 |   |   +-- mine             #我的  
 |   |   +-- ....
 |   |   +-- page.js          #通用mixin
 |   +-- store                #vuex
-|   |   +-- modules          #各页面的store放在此目录
-|   |   +-- actions.js
+|   |   +-- modules          #各页面的store放在此目录
+|   |   +-- actions.js
 |   |   +-- getters.js
 |   |   +-- index.js
 |   |   +-- mutation-types.js
 |   |   +-- mutations.js
 |   +-- styles
 |   +-- utils
-|   |   +-- checkLogin.js     #登录工具
+|   |   +-- checkLogin.js     #登录工具
 |   |   +-- index.js          #通用工具函数
 |   |   +-- request.js        #基于fly.js封装的异步请求方法
 |   |   +-- wx.js
@@ -32,7 +32,7 @@
 |   +-- fonts                 #字体文件
 |   +-- icons                 #用于tabBar的图标
 |   +-- img
-|   +-- libs                  #第三方原生组件
+|   +-- libs                  #第三方原生组件
 |   |   +-- vant              #vant weapp组件
 ```
 
