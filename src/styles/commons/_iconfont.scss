@@ -1,0 +1,40 @@
+@font-face {font-family: "iconfont";
+  src: url('../static/fonts/iconfont.eot'); /* IE9*/
+  src: url('../static/fonts/iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../static/fonts/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../static/fonts/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.#{$css-prefix}icon {
+  font-family:"iconfont" !important;
+  font-size: 36rpx;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  // -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+i.#{$css-prefix}icon {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+$iconClass:
+(search '\e611')
+(category1 '\e616')
+(category2 '\e614')
+(category3 '\e613')
+(category4 '\e615')
+(arrow-right '\e61a')
+(close '\e7b7')
+(enter '\e612');
+
+@each $icon in $iconClass{
+  $class: nth($icon, 1);
+  $fontValue: nth($icon, 2);
+  .#{$css-prefix}icon__#{$class} {
+    &:before{
+      content: $fontValue;
+    }
+  }
+}

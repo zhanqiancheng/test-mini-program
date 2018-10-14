@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/category/index",
+    "pages/integral/index",
+    "pages/shopping/index",
+    "pages/mine/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "商城",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#5A82E6",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "static/icons/icon_discover.png",
+        "selectedIconPath": "static/icons/icon_discover_selected.png"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "text": "分类",
+        "iconPath": "static/icons/icon_exposure.png",
+        "selectedIconPath": "static/icons/icon_exposure_selected.png"
+      },
+      {
+        "pagePath": "pages/integral/index",
+        "text": "积分",
+        "iconPath": "static/icons/icon_user.png",
+        "selectedIconPath": "static/icons/icon_user_selected.png"
+      },
+      {
+        "pagePath": "pages/shopping/index",
+        "text": "购物车",
+        "iconPath": "static/icons/icon_user.png",
+        "selectedIconPath": "static/icons/icon_user_selected.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "static/icons/icon_user.png",
+        "selectedIconPath": "static/icons/icon_user_selected.png"
+      }
+    ]
+  }
+}

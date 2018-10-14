@@ -1,0 +1,23 @@
+.#{$css-prefix}none{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  &__img{
+    width: 304rpx;
+    height: 246rpx;
+    margin-bottom: 30rpx;
+  }
+  &__text{
+    color: #999797;
+    font-size: 28rpx;
+  }
+  &__title{
+    margin-bottom: 10rpx;
+    font-weight: 700;
+    font-size: 36rpx;
+    color: #fff;
+  }
+}
